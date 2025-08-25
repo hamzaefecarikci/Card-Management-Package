@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CardManagement.Shared")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Merchant.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0c70e78ced6fe71e16b18f6de2563905dbc41bb")]
-[assembly: System.Reflection.AssemblyProductAttribute("CardManagement.Shared")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CardManagement.Shared")]
+[assembly: System.Reflection.AssemblyProductAttribute("Merchant.Service")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Merchant.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
