@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozge/Desktop/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj": {}
+    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj": {}
   },
   "projects": {
-    "/Users/ozge/Desktop/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj": {
+    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozge/Desktop/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
         "projectName": "Merchant.API",
-        "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
-        "packagesPath": "/Users/ozge/.nuget/packages/",
-        "outputPath": "/Users/ozge/Desktop/Card-Management-Package/src/Merchant/Merchant.API/obj/",
+        "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
+        "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ozge/.nuget/NuGet/NuGet.Config"
+          "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

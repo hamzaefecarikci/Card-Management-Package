@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozge/Desktop/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {}
+    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {}
   },
   "projects": {
-    "/Users/ozge/Desktop/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {
+    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozge/Desktop/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
         "projectName": "Cardholder.API",
-        "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
-        "packagesPath": "/Users/ozge/.nuget/packages/",
-        "outputPath": "/Users/ozge/Desktop/Card-Management-Package/src/Cardholder/Cardholder.API/obj/",
+        "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
+        "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ozge/.nuget/NuGet/NuGet.Config"
+          "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +47,34 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -69,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

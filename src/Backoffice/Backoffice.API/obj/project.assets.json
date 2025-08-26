@@ -125,33 +125,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/ozge/.nuget/packages/": {}
+    "/Users/hamzaefecarikci/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
+      "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
       "projectName": "Backoffice.API",
-      "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
-      "packagesPath": "/Users/ozge/.nuget/packages/",
-      "outputPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/obj/",
+      "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
+      "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+      "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Backoffice/Backoffice.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ozge/.nuget/NuGet/NuGet.Config"
+        "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj": {
-              "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj"
+            "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj": {
+              "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj"
             }
           }
         }
@@ -196,7 +195,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
