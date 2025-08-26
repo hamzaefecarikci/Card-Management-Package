@@ -1,0 +1,12 @@
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\bin\Debug\net9.0\Cardholder.Service.deps.json
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\bin\Debug\net9.0\Cardholder.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\bin\Debug\net9.0\Cardholder.Service.pdb
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.AssemblyInfoInputs.cache
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.AssemblyInfo.cs
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.csproj.CoreCompileInputs.cache
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.sourcelink.json
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\refint\Cardholder.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\Cardholder.Service.pdb
+C:\Users\Cenk\Projects\Card-Management-Package\src\Cardholder\Cardholder.Service\obj\Debug\net9.0\ref\Cardholder.Service.dll

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Core",
+    "\\src\\Core\\CardManagement.Data",
+    "\\src\\Core\\CardManagement.Data\\Entities",
+    "\\src\\Core\\CardManagement.Shared"
+  ],
+  "SelectedNode": "\\CardManagementSystem.sln",
+  "PreviewInSolutionExplorer": false
+}

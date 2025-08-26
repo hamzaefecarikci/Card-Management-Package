@@ -1,0 +1,12 @@
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\bin\Debug\net9.0\MerchantApp.Service.deps.json
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\bin\Debug\net9.0\MerchantApp.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\bin\Debug\net9.0\MerchantApp.Service.pdb
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.AssemblyInfoInputs.cache
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.AssemblyInfo.cs
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.sourcelink.json
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\refint\MerchantApp.Service.dll
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\MerchantApp.Service.pdb
+C:\Users\Cenk\Projects\Card-Management-Package\src\MerchantApp\MerchantApp.Service\obj\Debug\net9.0\ref\MerchantApp.Service.dll
