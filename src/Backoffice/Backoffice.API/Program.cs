@@ -13,13 +13,9 @@ builder.Services.AddDbContext<CardManagementContext>(options =>
 });
 
 builder.Services.AddScoped<IMerchantRepository, MerchantRepository>();
-
-
 builder.Services.AddScoped<IMerchantService, MerchantService>();
 
 builder.Services.AddScoped<CardholderRepository>();
-
-
 builder.Services.AddScoped<ICardholderService, CardholderService>();
 
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();

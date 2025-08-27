@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "spFN80aizRo=",
+  "dgSpecHash": "WiPApxA/hcM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj",
+  "projectFilePath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

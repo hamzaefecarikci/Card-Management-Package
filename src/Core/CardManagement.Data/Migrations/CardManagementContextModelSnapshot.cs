@@ -118,6 +118,34 @@ namespace CardManagement.Data.Migrations
                     b.ToTable("Merchants");
                 });
 
+            modelBuilder.Entity("CardManagement.Data.Entities.Product", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MerchantId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("char(100)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.HasKey("ProductId");
+
+                    b.HasIndex("MerchantId");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("CardManagement.Data.Entities.Transaction", b =>
                 {
                     b.Property<int>("TransactionId")
@@ -151,6 +179,38 @@ namespace CardManagement.Data.Migrations
                     b.ToTable("Transactions");
                 });
 
+            modelBuilder.Entity("CardManagement.Data.Entities.TransactionProductDetail", b =>
+                {
+                    b.Property<int>("TransactionProductDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransactionProductDetailId"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<int>("TransactionId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.HasKey("TransactionProductDetailId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TransactionId");
+
+                    b.ToTable("TransactionProductDetails");
+                });
+
             modelBuilder.Entity("CardManagement.Data.Entities.Card", b =>
                 {
                     b.HasOne("CardManagement.Data.Entities.Cardholder", "Cardholder")
@@ -160,6 +220,17 @@ namespace CardManagement.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Cardholder");
+                });
+
+            modelBuilder.Entity("CardManagement.Data.Entities.Product", b =>
+                {
+                    b.HasOne("CardManagement.Data.Entities.Merchant", "Merchant")
+                        .WithMany()
+                        .HasForeignKey("MerchantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Merchant");
                 });
 
             modelBuilder.Entity("CardManagement.Data.Entities.Transaction", b =>
@@ -179,6 +250,25 @@ namespace CardManagement.Data.Migrations
                     b.Navigation("Card");
 
                     b.Navigation("Merchant");
+                });
+
+            modelBuilder.Entity("CardManagement.Data.Entities.TransactionProductDetail", b =>
+                {
+                    b.HasOne("CardManagement.Data.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("CardManagement.Data.Entities.Transaction", "Transaction")
+                        .WithMany()
+                        .HasForeignKey("TransactionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Transaction");
                 });
 
             modelBuilder.Entity("CardManagement.Data.Entities.Card", b =>

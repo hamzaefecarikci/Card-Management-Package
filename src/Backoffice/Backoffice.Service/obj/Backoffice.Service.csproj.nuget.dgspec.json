@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj": {}
+    "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj": {
+    "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj",
+        "projectUniqueName": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj",
         "projectName": "Backoffice.Service",
-        "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj",
-        "packagesPath": "C:\\Users\\Cenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\obj\\",
+        "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj",
+        "packagesPath": "/Users/cenk/.nuget/packages/",
+        "outputPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Backoffice/Backoffice.Service/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/cenk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\CardManagement.Data.csproj": {
-                "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\CardManagement.Data.csproj"
+              "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
+                "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj"
               },
-              "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj": {
-                "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj"
+              "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+                "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj"
               }
             }
           }
@@ -72,40 +66,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\CardManagement.Data.csproj": {
+    "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\CardManagement.Data.csproj",
+        "projectUniqueName": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
         "projectName": "CardManagement.Data",
-        "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\CardManagement.Data.csproj",
-        "packagesPath": "C:\\Users\\Cenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Data\\obj\\",
+        "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
+        "packagesPath": "/Users/cenk/.nuget/packages/",
+        "outputPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/cenk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj": {
-                "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj"
+              "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+                "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj"
               }
             }
           }
@@ -165,32 +153,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj": {
+    "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj",
+        "projectUniqueName": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
         "projectName": "CardManagement.Shared",
-        "projectPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\CardManagement.Shared.csproj",
-        "packagesPath": "C:\\Users\\Cenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Core\\CardManagement.Shared\\obj\\",
+        "projectPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+        "packagesPath": "/Users/cenk/.nuget/packages/",
+        "outputPath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Core/CardManagement.Shared/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/cenk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -230,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
