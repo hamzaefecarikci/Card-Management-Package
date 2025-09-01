@@ -1,17 +1,187 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {}
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {}
   },
   "projects": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
         "projectName": "Cardholder.API",
-        "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
         "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
-        "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/obj/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/Cardholder.Service.csproj": {
+                "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/Cardholder.Service.csproj"
+              },
+              "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
+                "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj"
+              },
+              "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+                "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/Cardholder.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/Cardholder.Service.csproj",
+        "projectName": "Cardholder.Service",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/Cardholder.Service.csproj",
+        "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
+                "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj"
+              },
+              "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+                "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
+        "projectName": "CardManagement.Data",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
+        "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
@@ -44,37 +214,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.7, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.6, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
@@ -89,9 +243,79 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+        "projectName": "CardManagement.Shared",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+        "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

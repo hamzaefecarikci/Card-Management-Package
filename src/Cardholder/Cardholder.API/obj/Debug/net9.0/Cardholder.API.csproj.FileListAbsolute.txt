@@ -150,3 +150,15 @@
 /Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/bin/Debug/net9.0/runtimes/win-x64/native/krb5_64.dll
 /Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/bin/Debug/net9.0/runtimes/win-x64/native/krbcc64.dll
 /Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Cardholder/Cardholder.API/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.dll
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/refint/Cardholder.API.dll
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.pdb
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.csproj.AssemblyReference.cache
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.AssemblyInfoInputs.cache
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.AssemblyInfo.cs
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.csproj.CoreCompileInputs.cache
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Cardholder/Cardholder.API/obj/Debug/net9.0/Cardholder.API.sourcelink.json

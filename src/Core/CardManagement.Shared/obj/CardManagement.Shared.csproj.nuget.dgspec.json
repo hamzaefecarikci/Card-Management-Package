@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {}
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {}
   },
   "projects": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
         "projectName": "CardManagement.Shared",
-        "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
         "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
-        "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/obj/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

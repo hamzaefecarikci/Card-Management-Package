@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "OSkJ0G9Pfnw=",
+  "dgSpecHash": "K+MXqpon+uU=",
   "success": true,
-  "projectFilePath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Shared/CardManagement.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/hamzaefecarikci/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.7/microsoft.aspnetcore.authentication.jwtbearer.9.0.7.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.abstractions/8.0.1/microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.0.1/microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.logging/8.0.1/microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/hamzaefecarikci/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
