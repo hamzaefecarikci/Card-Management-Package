@@ -93,12 +93,12 @@ public class CardManagementContext : DbContext
             .HasOne(q => q.Transaction)
             .WithMany()
             .HasForeignKey(q => q.TransactionId)
-            .OnDelete(DeleteBehavior.SetNull);
+            .OnDelete(DeleteBehavior.NoAction);
 
         modelBuilder.Entity<QRCode>()
             .HasOne(q => q.Card)
             .WithMany()
             .HasForeignKey(q => q.CardId)
-            .OnDelete(DeleteBehavior.SetNull);
+            .OnDelete(DeleteBehavior.NoAction);
     }
 } 

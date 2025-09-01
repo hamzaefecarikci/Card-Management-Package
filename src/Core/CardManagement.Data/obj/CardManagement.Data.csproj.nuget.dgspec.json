@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {}
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {}
   },
   "projects": {
-    "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
+    "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
+        "projectUniqueName": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
         "projectName": "CardManagement.Data",
-        "projectPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
+        "projectPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/CardManagement.Data.csproj",
         "packagesPath": "/Users/hamzaefecarikci/.nuget/packages/",
-        "outputPath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Core/CardManagement.Data/obj/",
+        "outputPath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Core/CardManagement.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamzaefecarikci/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,24 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
