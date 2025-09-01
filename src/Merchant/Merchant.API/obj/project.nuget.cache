@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w+zClJj+vbI=",
+  "dgSpecHash": "6bRWFML2f4w=",
   "success": true,
-  "projectFilePath": "/Users/hamzaefecarikci/Documents/CardManagement/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
+  "projectFilePath": "/Users/hamzaefecarikci/Documents/Card-Management-Package/src/Merchant/Merchant.API/Merchant.API.csproj",
   "expectedPackageFiles": [
     "/Users/hamzaefecarikci/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
     "/Users/hamzaefecarikci/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
