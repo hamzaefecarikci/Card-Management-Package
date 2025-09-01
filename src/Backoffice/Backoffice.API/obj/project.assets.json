@@ -125,33 +125,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/ozge/.nuget/packages/": {}
+    "C:\\Users\\MonsterPC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
+      "projectUniqueName": "C:\\Users\\MonsterPC\\Desktop\\Card-Management-Package\\src\\Backoffice\\Backoffice.API\\Backoffice.API.csproj",
       "projectName": "Backoffice.API",
-      "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/Backoffice.API.csproj",
-      "packagesPath": "/Users/ozge/.nuget/packages/",
-      "outputPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.API/obj/",
+      "projectPath": "C:\\Users\\MonsterPC\\Desktop\\Card-Management-Package\\src\\Backoffice\\Backoffice.API\\Backoffice.API.csproj",
+      "packagesPath": "C:\\Users\\MonsterPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MonsterPC\\Desktop\\Card-Management-Package\\src\\Backoffice\\Backoffice.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/ozge/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\MonsterPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj": {
-              "projectPath": "/Users/ozge/Desktop/Card-Management-Package/src/Backoffice/Backoffice.Service/Backoffice.Service.csproj"
+            "C:\\Users\\MonsterPC\\Desktop\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj": {
+              "projectPath": "C:\\Users\\MonsterPC\\Desktop\\Card-Management-Package\\src\\Backoffice\\Backoffice.Service\\Backoffice.Service.csproj"
             }
           }
         }
@@ -196,7 +202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
