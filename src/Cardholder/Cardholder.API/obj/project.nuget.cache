@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8tIYCaz4ymk=",
+  "dgSpecHash": "ijp4e3F6Zug=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cenk\\Projects\\Card-Management-Package\\src\\Cardholder\\Cardholder.API\\Cardholder.API.csproj",
+  "projectFilePath": "/Users/cenk/Projects/CSharp/Card-Management-Package/src/Cardholder/Cardholder.API/Cardholder.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Cenk\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
-    "C:\\Users\\Cenk\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/cenk/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "/Users/cenk/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }

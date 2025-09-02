@@ -55,6 +55,12 @@ namespace Backoffice.Service.Implementations
 
             if (!string.IsNullOrEmpty(updateCardholderDTO.FullName)) cardholder.FullName = updateCardholderDTO.FullName;
             if (!string.IsNullOrEmpty(updateCardholderDTO.Email)) cardholder.Email = updateCardholderDTO.Email;
+            if (!string.IsNullOrEmpty(updateCardholderDTO.Email))
+            {
+                var PasswordHash = BCrypt.Net.BCrypt.HashPassword(updateCardholderDTO.Password);
+                cardholder.PasswordHash = PasswordHash;
+            } 
+
 
             await _repository.SaveChangesAsync();
             return MapToDTO(cardholder);

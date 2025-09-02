@@ -55,6 +55,12 @@ namespace Backoffice.Service.Implementations
 
             if (!string.IsNullOrEmpty(updateMerchantDto.Name)) merchant.Name = updateMerchantDto.Name;
             if (!string.IsNullOrEmpty(updateMerchantDto.Email)) merchant.Email = updateMerchantDto.Email;
+            if (!string.IsNullOrEmpty(updateMerchantDto.Password))
+            {
+                var PasswordHash = BCrypt.Net.BCrypt.HashPassword(updateMerchantDto.Password);
+                merchant.PasswordHash = PasswordHash;
+            } 
+
 
             merchant.UpdatedAt = DateTime.Now;
 
