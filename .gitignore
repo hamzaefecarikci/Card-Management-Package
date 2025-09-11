@@ -482,3 +482,15 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.dswa.cache.json
+*.razor.cache.json
+*.assets.cache
+*.genruntimeconfig.cache
+*.FileListAbsolute.txt
+**/ref/**
+**/refint/**
