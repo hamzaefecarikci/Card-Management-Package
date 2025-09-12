@@ -18,6 +18,12 @@
         public int TimeoutCount { get; set; }
     }
 
+     public class TransactionFilter
+    {
+        public int MerchantId { get; set; }
+        public DateTime? From { get; set; }
+        public DateTime? To { get; set; }
+    }
 
 
     public static class TxStatus

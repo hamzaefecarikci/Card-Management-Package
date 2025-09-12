@@ -1,0 +1,3 @@
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/publish/Merchant.Service.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/publish/Merchant.Service.deps.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/publish/Merchant.Service.pdb

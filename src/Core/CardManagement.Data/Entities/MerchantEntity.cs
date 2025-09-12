@@ -1,25 +1,23 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CardManagement.Data.Entities
 {
-    [Table("Merchants")]
     public class MerchantEntity
     {
         [Key]
-        public int MerchantId { get; set; } 
+        public int MerchantId { get; set; }
 
-        [Required, MaxLength(200)]
-        public string Name { get; set; } = string.Empty;
+        [Column(TypeName = "nvarchar(100)")]
+        public required string Name { get; set; }
 
-        [Required, MaxLength(200)]
-        public string Email { get; set; } = string.Empty; 
+        [Column(TypeName = "nvarchar(100)")]
+        public required string Email { get; set; }
 
-        [Required, MaxLength(500)]
-        public string PasswordHash { get; set; } = string.Empty;
+        [Column(TypeName = "nvarchar(100)")]
+        public required string PasswordHash { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

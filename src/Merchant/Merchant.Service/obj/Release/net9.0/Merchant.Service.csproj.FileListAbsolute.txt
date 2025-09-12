@@ -1,0 +1,12 @@
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/Merchant.Service.deps.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/Merchant.Service.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/bin/Release/net9.0/Merchant.Service.pdb
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.AssemblyInfoInputs.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.AssemblyInfo.cs
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.csproj.CoreCompileInputs.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.sourcelink.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/refint/Merchant.Service.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/Merchant.Service.pdb
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Merchant/Merchant.Service/obj/Release/net9.0/ref/Merchant.Service.dll

@@ -1,0 +1,15 @@
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/bin/Release/net9.0/CardManagement.Data.deps.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/bin/Release/net9.0/CardManagement.Data.runtimeconfig.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/bin/Release/net9.0/CardManagement.Data.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/bin/Release/net9.0/CardManagement.Data.pdb
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.csproj.AssemblyReference.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.AssemblyInfoInputs.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.AssemblyInfo.cs
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.csproj.CoreCompileInputs.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.sourcelink.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/refint/CardManagement.Data.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.pdb
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/CardManagement.Data.genruntimeconfig.cache
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Data/obj/Release/net9.0/ref/CardManagement.Data.dll

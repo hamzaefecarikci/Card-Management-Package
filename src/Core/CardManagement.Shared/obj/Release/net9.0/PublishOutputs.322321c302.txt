@@ -1,0 +1,3 @@
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Shared/bin/Release/net9.0/publish/CardManagement.Shared.dll
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Shared/bin/Release/net9.0/publish/CardManagement.Shared.deps.json
+/Users/cenk/Projects/CSharp/merchant2/Card-Management-Package/src/Core/CardManagement.Shared/bin/Release/net9.0/publish/CardManagement.Shared.pdb

@@ -1,24 +1,23 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CardManagement.Data.Entities
 {
-    [Table("Products")]
     public class ProductEntity
     {
         [Key]
-        public int ProductId { get; set; } 
+        public int ProductId { get; set; }
+        public int MerchantId { get; set; }
 
-        [ForeignKey(nameof(MerchantId))]
-        public int MerchantId { get; set; } 
+        [ForeignKey("MerchantId")]
+        public MerchantEntity Merchant { get; set; } = null!;
 
-        [Required, MaxLength(200)]
-        public string Name { get; set; } = string.Empty;
+        [Column(TypeName = "nvarchar(100)")]
+        public required string Name { get; set; }
 
-        [Column(TypeName = "decimal(18,2)")]
+        [Column(TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
     }
 }

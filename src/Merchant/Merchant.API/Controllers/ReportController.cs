@@ -1,4 +1,4 @@
-﻿using CardManagement.Data;
+﻿using CardManagement.Data.Db; // ✅ Make sure this is here
 using Merchant.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,8 +9,9 @@ namespace Merchant.API.Controllers
     [ApiController]
     public class ReportController : ControllerBase
     {
-        private readonly CardManagementDbContext _db;
-        public ReportController(CardManagementDbContext db) => _db = db;
+        private readonly CardManagementContext _db; // <-- Use the correct DbContext name
+
+        public ReportController(CardManagementContext db) => _db = db; // <-- Correct type here
 
         [HttpPost("add")]
         public async Task<ActionResult<TransactionDto>> AddTransaction(
@@ -21,7 +22,6 @@ namespace Merchant.API.Controllers
         {
             var tx = new CardManagement.Data.Entities.TransactionEntity
             {
-               
                 MerchantId = merchantId,
                 CardId = cardId,
                 TotalAmount = amount,
@@ -30,7 +30,7 @@ namespace Merchant.API.Controllers
             };
 
             _db.Transactions.Add(tx);
-            await _db.SaveChangesAsync(); 
+            await _db.SaveChangesAsync();
 
             return Ok(new TransactionDto
             {
@@ -66,6 +66,47 @@ namespace Merchant.API.Controllers
                 .ToListAsync();
 
             return Ok(list);
+        }
+
+        [HttpPost("transactions/filter")]
+        public async Task<IActionResult> GetFilteredTransactions([FromBody] TransactionFilter filter)
+        {
+            if (filter == null)
+            {
+                return BadRequest(new { success = false, message = "Filter data is required" });
+            }
+
+            var q = _db.Transactions.AsNoTracking().Where(t => t.MerchantId == filter.MerchantId);
+
+            if (filter.From.HasValue) q = q.Where(t => t.CreatedAt >= filter.From.Value);
+            if (filter.To.HasValue) q = q.Where(t => t.CreatedAt <= filter.To.Value);
+
+            var list = await q
+                .OrderByDescending(t => t.CreatedAt)
+                .Select(t => new TransactionDto
+                {
+                    TransactionId = t.TransactionId,
+                    TotalAmount = t.TotalAmount,
+                    Status = t.Status,
+                    CreatedAt = t.CreatedAt
+                })
+                .ToListAsync();
+
+            if (!list.Any())
+            {
+                return NotFound(new
+                {
+                    success = false,
+                    message = "No transactions found for the given filter"
+                });
+            }
+
+            return Ok(new
+            {
+                success = true,
+                message = "Transactions retrieved successfully",
+                transactions = list
+            });
         }
 
         [HttpGet("summary")]

@@ -5,7 +5,8 @@
     public class ProductDto
     {
         public int ProductId { get; set; }
-        public string Name { get; set; }=string.Empty;
+        public int MerchantId { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         public decimal Price { get; set; }
 
@@ -17,6 +18,7 @@
             //Ürün ekleme
         public class CreateProductRequest
         {
+            public int MerchantId { get; set; }
             public string Name { get; set; } = string.Empty;
             public decimal Price { get; set; }
         }
